@@ -1,0 +1,1 @@
+forfiles /P "C:\Windows" /C "cmd /c if @fsize GEQ 2097152 copy @path C:\LAB6\DESKTOP-DDUGPTF\temp /Z /Y"
